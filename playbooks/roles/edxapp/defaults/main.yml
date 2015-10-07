@@ -23,9 +23,9 @@ EDXAPP_DJFS:
   directory_root: '{{ edxapp_data_dir }}/django-pyfs/static/django-pyfs'
   url_root : '/static/django-pyfs'
 
-EDXAPP_LMS_BASE: ""
-EDXAPP_PREVIEW_LMS_BASE: ""
-EDXAPP_CMS_BASE: ""
+EDXAPP_LMS_BASE: "edx.alabs.org"
+EDXAPP_PREVIEW_LMS_BASE: "edx.alabs.org"
+EDXAPP_CMS_BASE: "cms.edx.alabs.org"
 
 EDXAPP_LMS_GUNICORN_EXTRA: ""
 EDXAPP_CMS_GUNICORN_EXTRA: ""
@@ -100,7 +100,7 @@ EDXAPP_CELERY_BROKER_VHOST: ""
 EDXAPP_VIDEO_CDN_URLS:
   EXAMPLE_COUNTRY_CODE: "http://example.com/edx/video?s3_url="
 
-EDXAPP_PLATFORM_NAME: 'Your Platform Name Here'
+EDXAPP_PLATFORM_NAME: 'edX VEN'
 
 EDXAPP_CAS_SERVER_URL: ""
 EDXAPP_CAS_EXTRA_LOGIN_PARAMS: ""
